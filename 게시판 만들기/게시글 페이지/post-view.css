@@ -76,8 +76,6 @@
   width: 1200px;
   height: 1000px;
   padding: 50px 100px;
-  border-bottom-style: dotted;
-  border-width: 3px;
 }
 
 .post-box {
@@ -95,6 +93,8 @@
 .c-writer {
   width: 1200px;
   height: 70px;
+  border-top-style: dotted;
+  border-width: 3px;
   padding: 25px 50px;
   font-size: 20px;
 }
@@ -103,6 +103,8 @@
   margin-top: 20px;
   padding: 20px 20px;
   border-bottom-style: dotted;
+  background-color: bisque;
+
   border-width: 3px;
   font-size: 20px;
 }
