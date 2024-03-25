@@ -291,6 +291,29 @@
   margin: 0 auto;
   width: 950px;
   height: 100px;
+}
+
+.comment-writer {
   display: flex;
   justify-content: space-between;
+}
+
+.commentwriteArea {
+  height: 100px;
+  width: 950px;
+  padding: 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.commentwriteArea input {
+  margin: 0 auto;
+  width: 800px;
+  height: 70px;
+}
+
+.commentwriteArea button {
+  margin: 0 auto;
+  width: 70px;
+  height: 70px;
 }
