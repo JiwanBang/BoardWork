@@ -253,3 +253,44 @@
   height: 30px;
   text-align: end;
 }
+
+.post-wrap {
+  margin: 0 auto;
+  width: 950px;
+}
+
+.post-Area {
+  height: 800px;
+  background-color: azure;
+  padding: 20px 20px 20px 20px;
+}
+
+.comment-wrap {
+  margin: 0 auto;
+  width: 950px;
+  height: 200px;
+}
+
+.comment-head {
+  margin: 0 auto;
+  display: flex;
+  width: 950px;
+  height: 30px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  justify-content: space-between;
+  border-bottom: solid 1px;
+}
+
+.comment-head div:nth-child(1) {
+  font-weight: 1000;
+}
+
+.comment-Area {
+  padding: 10px 15px;
+  margin: 0 auto;
+  width: 950px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
