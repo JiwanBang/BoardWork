@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#wrap {
+  margin: 0 auto;
+  width: 1500px;
+  display: flex;
+  justify-content: center;
+}
+
+.middlewrap {
+  width: 1200px;
+  margin: 0;
+}
+
+#headerwrap {
+  width: 100%;
+  height: 170px;
+  background-color: aliceblue;
+}
+
+#sidebarwrap {
+  width: 270px;
+  height: 1500px;
+  background-color: antiquewhite;
+}
+
+#quickbar {
+  list-style: none;
+  height: 50px;
+  font-size: 13px;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  line-height: 50px;
+  text-align: center;
+}
+
+#quickbar li {
+  border: 1px solid #333;
+  width: 150px;
+  height: 50px;
+}
+
+#menubar {
+  width: 200px;
+  height: 100%;
+  background-color: #f4f4f4;
+}
+
+.banner h2 {
+  text-align: center;
+  padding: 12px 10px;
+  font-size: 16px;
+}
+
+#visual-warp {
+  display: flex;
+  justify-content: center;
+}
+
+.idarea {
+  width: 198px;
+  height: 164px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  border-bottom-style: solid;
+}
+
+.loginInfo {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+#loginBTN {
+  display: flex;
+  height: 34px;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: end;
+}
+
+#loginBTN button {
+  height: 32px;
+  width: 150px;
+  background-color: black;
+  font-size: 12px;
+  color: white;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 150px;
+  height: 20px;
+  padding: 10px;
+  font-size: 12px;
+}
+
+.links div {
+  width: 100px;
+  height: 20px;
+}
+
+.links:nth-child(1) {
+  border-right-style: solid;
+  border-width: 1px;
+}
+
+.banner {
+  height: 46px;
+  width: 100%;
+}
+
+.searchbar {
+  padding-top: 40px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchbar input {
+  width: 130px;
+}
+
+.searchbar button {
+  width: 20px;
+  height: 17.78px;
+}
+
+.sidebanner {
+  font-weight: 1000;
+  height: 45px;
+  padding: 10px 20px;
+  border-bottom-style: solid;
+  border-width: 1px;
+}
+
+.sidebanner p {
+  width: 180px;
+}
+
+.sidemenu1 {
+  list-style: none;
+  padding: 10px 20px 12px;
+  height: 282px;
+  font-size: 14px;
+  border-bottom-style: solid;
+}
+
+.sidemenu1 li {
+  width: 158px;
+  height: 30px;
+}
+
+.sidemenu2 {
+  list-style: none;
+  padding: 10px 20px 12px;
+  height: 222px;
+  font-size: 14px;
+  border-bottom-style: solid;
+}
+
+.sidemenu2 li {
+  width: 158px;
+  height: 30px;
+}
+
+.sidemenu3 {
+  list-style: none;
+  padding: 10px 20px 12px;
+  height: 432px;
+  font-size: 14px;
+  border-bottom-style: solid;
+}
+
+.sidemenu3 li {
+  width: 158px;
+  height: 30px;
+}
+
+#middle-area {
+  width: 1000px;
+  height: 1300px;
+}
+
+.post-wrap {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 950px;
+}
+
+.post-Area {
+  height: 1000px;
+  background-color: azure;
+  padding: 20px 20px 20px 20px;
+}
+
+.postwrite-head {
+  height: 70px;
+  width: 900px;
+  margin: 0 auto;
+  padding: 10px 10px 10px 10px;
+}
+
+.post-Area input {
+  margin: 0 auto;
+  width: 830px;
+  height: 30px;
+  font-size: 20px;
+}
+
+.postwrite-area {
+  margin: 0 auto;
+  padding: 10px 10px 10px 10px;
+  width: 900px;
+  height: 850px;
+}
+
+.postwrite-area textarea {
+  margin: 0 auto;
+  resize: none;
+  width: 830px;
+  height: 800px;
+}
+
+.btns-area {
+  margin: 0 auto;
+  width: 830px;
+  height: 40px;
+  display: flex;
+  justify-content: end;
+}
+
+.btns-area button {
+}
